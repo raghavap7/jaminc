@@ -370,7 +370,7 @@ $("#send-mail").click(function () {
 
 //Initialize google map for contact setion with your location.
 
-function initializeMap() {
+function initMap() {
 
     var lat = '39.6791383'; //Set your latitude.
     var lon = '-75.7309566'; //Set your longitude.
@@ -379,7 +379,7 @@ function initializeMap() {
 
     var myOptions = {
         scrollwheel: false,
-        draggable: false,
+        draggable: true,
         disableDefaultUI: true,
         center: new google.maps.LatLng(lat, centerLon),
         zoom: 15,
@@ -387,7 +387,7 @@ function initializeMap() {
     };
 
     //Bind map to elemet with id map-canvas
-    var map = new google.maps.Map(document.getElementById('map-canvas'), myOptions);
+    var map = new google.maps.Map(document.getElementById('map'), myOptions);
     var marker = new google.maps.Marker({
         map: map,
         position: new google.maps.LatLng(lat, lon),
