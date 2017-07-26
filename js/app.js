@@ -39,7 +39,7 @@
     $('#da-slider').cslider();
 
     //Initial mixitup, used for animated filtering portgolio.
-    $('#portfolio-grid').mixitup({
+    $('#Products-grid').mixitup({
         'onMixStart': function (config) {
             $('div.toggleDiv').hide();
         }
@@ -257,7 +257,7 @@ $("#send-mail").click(function () {
 
 
 
-    //Function for show or hide portfolio desctiption.
+    //Function for show or hide Products desctiption.
     $.fn.showHide = function (options) {
         var defaults = {
             speed: 1000,
@@ -280,7 +280,7 @@ $("#send-mail").click(function () {
         });
     };
 
-    //Initial Show/Hide portfolio element.
+    //Initial Show/Hide Products element.
     $('div.toggleDiv').hide();
     $('.show_hide').showHide({
         speed: 500,
@@ -338,8 +338,8 @@ $("#send-mail").click(function () {
         }
     });
     
-    //Animate price columns
-    jQuery('.price-column, .testimonial').bind('inview', function (event, visible) {
+    //Animate career columns
+    jQuery('.career-column, .testimonial').bind('inview', function (event, visible) {
         if (visible == true) {
             jQuery(this).addClass("animated fadeInDown");
         } else {

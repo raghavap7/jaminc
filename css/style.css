@@ -444,7 +444,7 @@ p {
     height: 40px;
     text-align: center;
 }
-#portfolio-grid .mix {
+#Products-grid .mix {
     opacity: 0;
     display: none;
 }
@@ -581,11 +581,11 @@ p {
 /*
 3.5 Price table
 ******************************************************************/
- .price-table {
+ .career-table {
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.price-column {
+.career-column {
     background-color:white;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -594,7 +594,7 @@ p {
     margin:0 auto;
     text-align:center;
 }
-.price-column h3 {
+.career-column h3 {
     background-color:#181A1C;
     text-transform:uppercase;
     text-align: center;
@@ -606,25 +606,25 @@ p {
     -webkit-border-radius: 10px 10px 0px 0px;
     border-radius: 10px 10px 0px 0px;
 }
-.price-column .list{
+.career-column .list{
     list-style:none;
     margin:20px 50px;
 }
-.price-column .list li{
+.career-column .list li{
     font-weight:lighter;
     color:#747C89;
     font-size:20px;
     border-bottom:1px solid #747C89;
     padding:25px 0px;
 }
-.price-column .list li.price {
+.career-column .list li.career {
     text-align: center;
     font-size:31px;
     background-color:white;
     color:#747C89;
     margin-top:25px;
 }
-.price-text{
+.career-text{
     margin:30px 0 20px;
     font-size:20px;
     color: #181A1C;
@@ -885,7 +885,7 @@ p{
     .project-description {
         padding-left:20px;
     }
-    .price-column, .testimonial {
+    .career-column, .testimonial {
         margin-top:30px;
     }
 }
